@@ -10,7 +10,7 @@ import pytz
 load_dotenv()  # Load .env into environment variables
 
 API_KEY = os.getenv("RANDORG_API_KEY")
-API_URL = ""#"https://api.random.org/json-rpc/4/invoke"
+API_URL = "https://api.random.org/json-rpc/4/invoke"
 DISCORD_TOKEN = os.getenv("DISCORD_API_KEY")
 PST = pytz.timezone('America/Los_Angeles')
 
